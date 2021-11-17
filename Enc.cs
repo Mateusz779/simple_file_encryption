@@ -64,8 +64,9 @@ namespace szyfrowanie_plikow
             }
             else
             {
-                tableLayoutPanel1.Controls.Remove(textBoxes.ToArray()[textBoxes.Count]);
-                textBoxes.RemoveAt(textBoxes.Count);
+                val--;
+                tableLayoutPanel1.Controls.Remove(textBoxes.ToArray()[textBoxes.Count-1]);
+                textBoxes.RemoveAt(textBoxes.Count-1);
             }
 
             
