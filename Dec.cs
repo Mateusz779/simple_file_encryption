@@ -1,4 +1,5 @@
-﻿using System;
+﻿//@author: Mateusz779
+using System;
 using System.Windows.Forms;
 
 namespace szyfrowanie_plikow

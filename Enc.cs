@@ -1,4 +1,5 @@
-﻿using System;
+﻿//@author: Mateusz779
+using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
 
