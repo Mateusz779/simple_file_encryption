@@ -234,7 +234,8 @@ namespace szyfrowanie_plikow
                 {
                     //Debug.WriteLine("CryptographicException error: " + ex_CryptographicException.Message);
                     fsOut.Close();
-                    File.Delete(inputFile);
+                    if(File.Exists(inputFile))
+                        File.Delete(inputFile);
                 }
                 try
                 {
